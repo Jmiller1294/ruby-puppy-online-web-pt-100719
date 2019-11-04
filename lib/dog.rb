@@ -6,7 +6,6 @@ class Dog
   
   def initialize(name)
   @@all << self  
-  
   end 
     
   def self.all
@@ -14,6 +13,9 @@ class Dog
   end 
   
   def self.print_all
+    @@all.each do |dog_name|
+      puts "#{dog_name.name}"
+  end
   
   end
 end
