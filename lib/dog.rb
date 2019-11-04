@@ -17,8 +17,12 @@ class Dog
     @@all.map do |dog_name|
       puts "#{dog_name.name}"
     end
+    
+  def save 
+    
+  end
   
-  
-  
+  def self.clear_all
+    
   end
 end
